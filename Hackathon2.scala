@@ -1,4 +1,4 @@
-package incepetzscalaOne.scalaprograms
+package scalaOne.scalaprograms
 
 import org.apache.spark._;
 import org.apache.spark.sql.SparkSession;
