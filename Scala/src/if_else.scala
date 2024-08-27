@@ -9,10 +9,9 @@ object if_else {
     else
       println("no fruit")
 
-
-    var x = 10
+    var x = 80
     if(x >= 80)
-      { println("Grade A") }
+       println("Grade A")
     else if (x >= 65 && x <= 80)
     println("grade B")
     else if (x >= 50 && x <= 65)
@@ -21,4 +20,5 @@ object if_else {
       println("grade D")
     else println ("fail")
   }
+
 }
