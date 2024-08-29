@@ -1,4 +1,4 @@
-object if_else {
+object a_if_else {
 
 
   def main(arg: Array[String]): Unit = {

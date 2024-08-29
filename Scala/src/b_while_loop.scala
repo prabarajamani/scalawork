@@ -1,4 +1,4 @@
-object while_loop {
+object b_while_loop {
 
 
   def main(arg: Array[String]): Unit = {

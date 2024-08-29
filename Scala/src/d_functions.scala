@@ -1,4 +1,4 @@
-object functions {
+object d_functions {
 
   object Math {
 

@@ -1,4 +1,4 @@
-object match_expressions {
+object c_match_expressions {
 
   def main(args: Array[String]): Unit = {
 

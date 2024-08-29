@@ -1,4 +1,4 @@
-object default_val {
+object d_default_val {
 
 
   object Math {

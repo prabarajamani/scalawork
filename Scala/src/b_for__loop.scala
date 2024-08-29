@@ -1,4 +1,4 @@
-object for__loop {
+object b_for__loop {
 
   def main(arg: Array[String]): Unit = {
 
