@@ -5,4 +5,5 @@ print('This is praba\'s phone') # \ is used to consider the next character as sp
 print(" He said, \"this is my phone\"") # He said, "this is my phone"
 print('He said, "this is my phone"') # He said, "this is my phone" (without using \ )
 print("This is backslash : \\") # to print \ --> added \\ to overcome backlash
+print("'It's Hero Time!'\n\t\t\t-Ben10")
 
