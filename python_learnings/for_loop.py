@@ -15,3 +15,24 @@ for j in range(1,5):
 #    print(j)
 print(e_count)
 print(o_count)
+
+
+num = 5
+
+for u in range(num): # 0 --> 4 will loop
+    print(u)
+
+for k in range(10, 50 , 2): # 3 arguments start with 10 and loop till 49 and use step up value
+    print(k)
+
+for j in range(100, 50, -1):# will loop in reverse value
+    print(j)
+
+#nested loops:
+
+n = int(input("Enter n : "))
+
+for j in range(1, n+1):
+    for i in range(1, j+1):
+        print(i, end=' ')
+    print()

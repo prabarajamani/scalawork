@@ -38,3 +38,25 @@ elif num == 0:
     print("zero")
 else:
     print("negative")
+
+
+ # empty statement
+
+if 5 == 5:
+    pass #empty statement
+print("pass")
+
+#jump statement
+
+for i in range(1,11):
+    if i == 5:
+        continue #jump statement
+    print(i)
+
+
+#break statement
+
+for i in range(1,11):
+    if i == 5:
+        break #break statement
+    print(i)
