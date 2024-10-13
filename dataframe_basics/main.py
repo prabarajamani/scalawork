@@ -1,24 +1,13 @@
-#from pyspark import SparkFiles
-from pyspark.sql.connect.session import SparkSession
-
-#from dataframe_adv.df_aggs import spark
-
+import os
+from pyspark.sql import SparkSession
 
 def print_hi(name):
     print(f'Hi, {name}')
 
+os.environ['JAVA_HOME'] = "D:\\software\\microsoft-jdk-17.0.12-windows-x64\\jdk-17.0.12+7\\"
 
-if __name__ == '__main__':
-    print_hi('pycharm')
+product_data = "C:\\Users\\Thasvin Prabakaran\\PycharmProjects\\scalawork\\datasets\\dw_dataset\\product_meta.csv"
+spark = SparkSession.builder.appName("Hello Spark").master("local[1]").getOrCreate()
 
-    spark = SparkSession.builder \
-            .appName("Hello Spark") \
-            .master("local[1]") \
-            .getOrCreate()
-
-    data_list =[("prem", 33),
-                ("praba", 34),
-                ("thasvin", 3)]
-
-    df = spark.createDataFrame(data_list).toDF("Name", "Age")
-    df.show()
+df = spark.read.csv(product_data)
+df.show()
